@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {HighlightDirective} from './highlight.directive';
+import { TestingComponent } from './testing/testing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HighlightDirective,
+    TestingComponent,
   ],
   imports: [
     BrowserModule
