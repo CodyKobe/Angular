@@ -9,8 +9,7 @@ export class TestingComponent implements OnInit {
 
   counter = 0;
 
-  constructor() {
-  }
+  constructor() { }
 
   ngOnInit() {
   }

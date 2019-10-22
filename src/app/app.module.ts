@@ -6,6 +6,7 @@ import {HighlightDirective} from './directive/highlight.directive';
 import { TestingComponent } from './testing/testing.component';
 import { KeyframesComponent } from './keyframes/keyframes.component';
 import { DirectiveComponent } from './directive/directive.component';
+import { TransclusionComponent } from './transclusion/transclusion.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DirectiveComponent } from './directive/directive.component';
     TestingComponent,
     KeyframesComponent,
     DirectiveComponent,
+    TransclusionComponent,
   ],
   imports: [
     BrowserModule
