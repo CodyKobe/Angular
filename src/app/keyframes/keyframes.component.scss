@@ -1,12 +1,13 @@
 .animation {
+  position: absolute;
   width: 50px;
   height: 50px;
-  background-color: red;
+  background-color: #8888;
   animation-duration: 3s;
   animation-name: pendulum;
   animation-fill-mode: backwards;
   animation-delay: 1s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 0;
   animation-direction: alternate;
 }
 
@@ -43,4 +44,8 @@
 
 .color {
   color: var(--fake, var(--main-color, brown));
+}
+
+.container__animation {
+  padding-bottom: 50px;
 }

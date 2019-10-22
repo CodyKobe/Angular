@@ -1,6 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import {HighlightDirective} from './highlight.directive';
+import {HighlightDirective} from './directive/highlight.directive';
 import {TestingComponent} from './testing/testing.component';
 
 describe('AppComponent', () => {

@@ -2,9 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {HighlightDirective} from './highlight.directive';
+import {HighlightDirective} from './directive/highlight.directive';
 import { TestingComponent } from './testing/testing.component';
 import { KeyframesComponent } from './keyframes/keyframes.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { KeyframesComponent } from './keyframes/keyframes.component';
     HighlightDirective,
     TestingComponent,
     KeyframesComponent,
+    DirectiveComponent,
   ],
   imports: [
     BrowserModule
